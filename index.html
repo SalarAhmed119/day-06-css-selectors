@@ -32,6 +32,25 @@
                 height: 200px;
                 background: orangered;
             }
+            /*5. universal selector*/
+            *{
+                border: 5px solid #000;
+            }
+            /*6 combinational selector ,, */
+            div,span,h1,a{
+                margin-bottom: 10px;
+            }
+            /*pseudo element selector :: */
+            div.c2::after{
+                content: url('./1.jpeg');
+            }
+            .c3{
+                background: aliceblue;
+            }
+            /*pseudo class selector : */
+            .c3:hover{
+                background: purple;
+            }
         </style>
     </head>
     <body>
@@ -39,5 +58,7 @@
         <span id="a1">2. Id Selector</span>
         <h1 class="c1">3. Class Selector</h1>
         <a href="https://www.google.com">4. Attribute Selector</a>
+        <div class="c2">pseudo element selector</div>
+        <div class="c3"></div>
     </body>
 </html>
