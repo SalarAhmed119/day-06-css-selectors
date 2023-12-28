@@ -23,12 +23,21 @@
                 width: 200px;
                 height: 200px;
                 background: orange;
+                margin: 0px;
+            }
+            /*4. attribute selector*/
+            a[href="https://www.google.com"]{
+                display: block;
+                width: 200px;
+                height: 200px;
+                background: orangered;
             }
         </style>
     </head>
     <body>
         <div>1. Element Selector</div>
-        <span id="a1">2. id selector</span>
-        <h1 class="c1">3. class selector</h1>
+        <span id="a1">2. Id Selector</span>
+        <h1 class="c1">3. Class Selector</h1>
+        <a href="https://www.google.com">4. Attribute Selector</a>
     </body>
 </html>
