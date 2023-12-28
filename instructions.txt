@@ -1,0 +1,61 @@
+mkdir -> folder create
+touch -> create file
+cd -> folder ke andar jaane ke liye
+ls -> 
+code . -> used to open a visual studio code
+
+CSS Selectors
+there are 8 types of selectors
+1. element selector  
+
+syntax:-
+
+element{
+   propert:value;
+}
+
+2. id selector
+
+syntax:-
+element#id{
+  property:value;
+}
+
+3. class selector
+
+syntax:-
+
+element.class{
+  property:value;
+}
+4. attribute selector
+
+syntax:-
+
+element[attribute]{
+  propert:value;
+}
+5. universal selector 
+
+syntax:-
+
+*{
+ property:value;
+}
+6. combinational selector
+
+syntax:-
+
+element1,element2,ele{
+
+}
+7. pseudo element selector
+
+synatax:-
+
+element::
+8. pseudo class selector
+
+synatax:-
+
+element:
